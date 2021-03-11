@@ -21,6 +21,8 @@ body{
    border-radius: 50px;
    border: 2px solid #82b5d1;
    box-shadow: 10px 15px 5px #82b5d1;
+   display:grid;
+   grid-template-areas: "";
    
 }
 .app .quiz-box h1{
