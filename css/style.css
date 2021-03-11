@@ -44,7 +44,8 @@ img{
 }
 .sidenav{
     width: 300px;
-    height: 700px;
+    height: 250px;
+    height: 900px;
     background-color:#333;
     border-radius: 20px;
     grid-area: "sidenav";
@@ -66,3 +67,4 @@ img{
     grid-area:"footer";
     grid-column: footer;
 }
+@media(max)
