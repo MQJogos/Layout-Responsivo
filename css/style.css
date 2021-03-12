@@ -12,7 +12,11 @@ body{
   *{
      box-sizing: border-box; 
 }
-/* CSS GRID LAYOUT */
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* CSS GRID LAYOUT
 .app{
    max-width: 700px;
 
@@ -109,4 +113,4 @@ img{
    "item"
    "footer";
    }
-}
+} */
