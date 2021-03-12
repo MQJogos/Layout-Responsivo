@@ -95,6 +95,9 @@ img{
 }
 
 @media(max-width: 520px){
+ .sidenav{
+     height: 200px;
+}
  .app{
    grid-template-areas: 
    "sidenav"
