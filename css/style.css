@@ -11,6 +11,14 @@ body{
 } 
   *{
      box-sizing: border-box; 
+}
+.app .quiz-box h1{
+  font-size:30px;
+  font-weight: 400;
+  color:#FFFFFF;
+  margin:20px 0px 20px 0px; 
+  text-align: center;
+  font-weight: bold;
 } 
 /* CSS GRID LAYOUT */
 .app{
@@ -18,10 +26,14 @@ body{
 
    margin: 40px auto;
 
+   padding:0px 20px Opx 20px;
+
    border: 2px solid #82b5d1;
 
    display:grid;
    grid-gap: 20px;
+
+   justify-content: center;
    
    grid-template-areas: 
    "sidenav item item"
@@ -36,14 +48,7 @@ body{
    box-shadow: 10px 15px 5px #82b5d1;
 
 }
-.app .quiz-box h1{
-  font-size:30px;
-  font-weight: 400;
-  color:#FFFFFF;
-  margin:20px 0px 20px 0px; 
-  text-align: center;
-  font-weight: bold;
-}
+
 img{
      width: 100%;
      border-radius: 20px;
@@ -86,5 +91,18 @@ img{
    "sidenav item"
    "sidenav item"
    "footer footer";
+   }
+}
+
+@media(max-width: 520px){
+ .app{
+   grid-template-areas: 
+   "sidenav"
+   "item"
+   "item"
+   "item"
+   "item"
+   "item"
+   "footer";
    }
 }
