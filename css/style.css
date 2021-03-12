@@ -73,5 +73,25 @@ img{
     grid-column: footer;
 }
 @media(max-width: 820px){
+ .app{
+   max-width: 700px;
+   margin: 40px auto;
+   border: 2px solid #82b5d1;
+   display:grid;
+   grid-gap: 20px;
+   
+   grid-template-areas: 
+   "sidenav item item"
+   "sidenav item item"
+   "sidenav item item"
+   "footer footer footer"
+
+   background-color: rgba(91, 128, 86, 0.5);
+   padding: 10px 50px 50px 50px;
+   border-radius: 50px;
+   
+   box-shadow: 10px 15px 5px #82b5d1;
+
+}
    
 }
