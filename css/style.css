@@ -42,6 +42,14 @@ body{
    
    box-shadow: 10px 15px 5px #82b5d1;
 }
+.app .quiz-box h1{
+  font-size:30px;
+  font-weight: 400;
+  color:#FFFFFF;
+  margin:20px 0px 20px 0px; 
+  text-align: center;
+  font-weight: bold;
+} 
 /* CSS GRID LAYOUT
 .app{
    max-width: 700px;
