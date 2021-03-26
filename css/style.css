@@ -41,7 +41,7 @@ body
   position: absolute;
   top: 10px;
   left: 10px;
-  background: rgba(255,0,0.1);
+  background: rgba(255,255,255,0.1);
   backdrop-filter: blur(20px);
   height: calc(100% - 20px);
   width: calc(100% - 20px);
@@ -56,6 +56,23 @@ body
   transition: 0.5s ease-in-out;
 }
 .container .card:hover .imgBx 
+{
+  height: 150px;
+  width: 150px;
+  left: -75;
+  top:calc(50% - 75px);
+}
+.container .card .imgBx img
+{
+  max-width: 100px;
+  filter: invert(1);
+  transition: 0.5s ease-in-out;
+}
+.container .card:hover .imgBx img
+{
+  max-width: 75px;
+}
+.container .card .content 
 {
   
 }
