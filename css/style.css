@@ -18,7 +18,7 @@ body
 .container
 {
   position: relative;
-  width: 100px;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   flex-wrap:wrap;
@@ -74,5 +74,15 @@ body
 }
 .container .card .content 
 {
-  
+  position: absolute;
+  right:0;
+  width: calc(100% - 75px);
+  height: 100%;
+  padding:20px;
+  display: flex;
+  justify-content: center;
+}
+.container .card .content h3
+{
+  color:
 }
